@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <title>TechPro - Home</title>
+</head>
+<body>
+    <header class="header">
+        <div class="contenedor contenido-header ">
+            <div class="imagen-header">
+                <picture>
+                    <source
+                        sizes="1920w"
+                        srcset="./img/header.avif"
+                        type="image/avif"
+                    >
+                    <source
+                        sizes="1920w"
+                        srcset="./img/header.webp"
+                        type="image/webp"
+                    >
+                    <source
+                        sizes="1920w"
+                        srcset="./img/header.png"
+                        type="image/png"
+                    >
+                    <img  loading="lazy" decoding="async" src="./img/header.png" lazyalt="imagen header"
+                    width="1000" height="500">
+                </picture>
+            </div> <!--Imágen Header-->
+
+            <div class="texto-header">
+                <p class="tagline-producto">Sonido Profesional</p>
+                <h1 class="nombre-producto degradado-verde">TechPRO</h1>
+                <p class="descripcion-producto">El mejor sonido para oídos exigentes, el bajo fuerte y los brillos claros y afinados. La mejor definición en sonido que cuida tus oídos, con un diseño impactante, innovador y elegante. Escucha el futuro!!</p>
+                <p class="precio-producto">Desde <span>$299</span></p>
+            </div>
+        </div>
+    </header>
+
+    <section class="contenedor">
+        <div class="iconos">
+            <div class="icono">
+                <img src="./img/icono-sonido.svg" alt="imagen-icono">
+                <h3>Gran sonido</h3>
+                <p>La calidad de definición que te transporta a tu mejor concierto en vivo, al cine con tus amigos o la disco pasándolo increible... todo desde la comidad de tu casa, en el trabajo o el gym.</p>
+            </div>
+            <div class="icono">
+                <img src="./img/icono-garantia.svg" alt="imagen-icono">
+                <h3>Garantía de por Vida</h3>
+                <p>Has tu inversión una sola vez. Cualquier defecto de fábrica o calidad te permite reponerlos de forma inmediata, no importa hace cuánto tiempo los hayas comprado. Toda una vida escuchando el futuro.</p>
+            </div>
+            <div class="icono">
+                <img src="./img/icono-bateria.svg" alt="imagen-icono">
+                <h3>+ 20 Horas de Batería</h3>
+                <p>Primero se te van a agotar las energías de seguir bailando que la batería de los audífonos TechPro. Cuentan con celdas de un alta eficiencia al almacenar electricidad para que tengas más de 20 horas conectado con lo mejor de la música y el cine.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="sobre-tech">
+            <div class="sobre-tech-grid contenedor">
+                <div class="texto-sobre-tech">
+                    <h2>Sobre los <span>TechPRO</span></h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam perferendis dolorem rerum veritatis at? Error officiis voluptate hic minima? Aut assumenda temporibus porro ipsa atque quam vero minima explicabo ullam?</p>
+                </div>
+            </div>
+    </section>
+
+    <main class="contenedor modelos">
+        <h2 class="text-center degradado-verde header-modelos">Elige tus TechPRO</h2>
+        <div class="listado-modelos">
+            <div class="modelo modelo-x">
+                <h3>TechPRO X</h3>
+                <p class="precio">$299</p>
+            </div>
+            <div class="modelo modelo-y">
+                <h3>TechPRO Y</h3>
+                <p class="precio">399</p>
+            </div>
+            <div class="modelo modelo-z">
+                <h3>TechPRO Z</h3>
+                <p class="precio">$499</p>
+            </div>
+        </div>
+
+    </main>
+
+    <section class="newsletter">
+        <div class="contenido-newsletter contenedor">
+            <div class="texto-newsletter">
+                <h2>Recibe Actualizaciones</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum distinctio ipsam id quidem doloribus beatae nobis ratione veniam soluta quis accusantium provident optio asperiores nam, quibusdam ullam minus aperiam autem!</p>
+                <form class="formulario">
+                    <div class="input">
+                        <input type="text" placeholder="Tu Email">
+                    </div>
+                    <input type="submit" value="Inscribirme">
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <p>Todos los derechos reservados</p>
+    </footer>
+
+    <script src="./js/imagen.js"></script>
+</body>
+</html>
